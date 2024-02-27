@@ -1,0 +1,14 @@
+.App {
+    text-align: center;
+    background-color: azure;
+  }
+  .Profile {
+    margin: 0 auto;
+    width: 375px;
+    background-color: #fff;
+  }
+  .User {
+    width: 210px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
