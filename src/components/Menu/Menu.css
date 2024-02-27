@@ -1,0 +1,13 @@
+.Menu-Item {
+    background-color: #fff;
+    border: 0;
+    display: flex;
+    padding-left: 20px;
+    color: #505050;
+    font-size: 14px;
+}
+.Menu {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}

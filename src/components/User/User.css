@@ -1,0 +1,17 @@
+.User-Avatar {
+    width: 155px;
+    height: 155px;
+    border-radius: 15px;
+}
+.User-Name {
+    font-size: 14px;
+    color: #505050;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.User-Description {
+    font-size: 10px;
+    color: #9f9f9f;
+    margin: 0;
+    margin-bottom: 50px;
+}
