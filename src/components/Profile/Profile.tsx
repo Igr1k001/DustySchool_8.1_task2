@@ -2,6 +2,7 @@ import React from 'react';
 
 import './Profile.css';
 
+import { ProfileCn, ProfileUserCn, ProfileMenuCn } from './Profile.classname';
 
 import { User, IUserProps } from '../User/User';
 
@@ -19,14 +20,14 @@ export interface IProfileProps {
 export const Profile: React.FC<IProfileProps> = ({ userProps, menuProps }) => {
 
     return (
-        <div className="Profile">
-            <div className="User">
+        <div className={ProfileCn}>
+            <div className={ProfileUserCn}>
                 <User {...userProps}/>
             </div>
-            <div className='Menu_block'>
+            <div className={ProfileMenuCn}>
                 {menuProps.map(button => <Menu text={button.text} icon={button.icon}/>)}
             </div>
-            <div className="Buttons">
+            <div>
                 <Button>
                     Logout
                 </Button>
